@@ -23,9 +23,6 @@ https://gcr.io/google_containers/kube-apiserver-amd64
 https://gcr.io/google_containers/kube-controller-manager-amd64
 https://gcr.io/google_containers/kube-scheduler-amd64
 https://gcr.io/google_containers/kube-discovery-amd64
-https://gcr.io/google_containers/heapster_grafana
-https://gcr.io/google_containers/heapster_grafana
-https://gcr.io/google_containers/heapster_influxdb-amd64
 https://gcr.io/google_containers/elasticsearch
 https://gcr.io/google_containers/heapster_influxdb
 https://gcr.io/google_containers/kibana
