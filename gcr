@@ -1,5 +1,6 @@
 https://gcr.io/google_containers/kubernetes-dashboard-amd64
 https://gcr.io/google_containers/kubedns-amd64
+https://gcr.io/google_containers/coredns
 https://gcr.io/google_containers/k8s-dns-dnsmasq-amd64
 https://gcr.io/google_containers/dnsmasq-metrics-amd64
 https://gcr.io/google_containers/exechealthz-amd64
