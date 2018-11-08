@@ -11,13 +11,13 @@ https://gcr.io/google_containers/fluentd-elasticsearch
 https://gcr.io/google_containers/k8s-dns-dnsmasq-nanny-amd64
 https://gcr.io/google_containers/k8s-dns-sidecar-amd64
 https://gcr.io/google-samples/xtrabackup
-https://gcr.io/google_containers/heapster-influxdb-amd64
+* https://gcr.io/google_containers/heapster-influxdb-amd64
 * https://gcr.io/google_containers/etcd-amd64
-https://gcr.io/google_containers/heapster-grafana-amd64
+* https://gcr.io/google_containers/heapster-grafana-amd64
 https://gcr.io/google_containers/heapster
 * https://gcr.io/google_containers/pause-amd64
 https://gcr.io/kubernetes-helm/tiller
-https://gcr.io/google_containers/heapster-amd64
+* https://gcr.io/google_containers/heapster-amd64
 * https://gcr.io/google_containers/kube-proxy-amd64
 https://gcr.io/google_containers/addon-resizer
 * https://gcr.io/google_containers/kube-apiserver-amd64
