@@ -1,6 +1,6 @@
-https://gcr.io/google_containers/kubernetes-dashboard-amd64
+* https://gcr.io/google_containers/kubernetes-dashboard-amd64
 https://gcr.io/google_containers/kubedns-amd64
-https://gcr.io/google_containers/coredns
+* https://gcr.io/google_containers/coredns
 https://gcr.io/google_containers/k8s-dns-dnsmasq-amd64
 https://gcr.io/google_containers/dnsmasq-metrics-amd64
 https://gcr.io/google_containers/exechealthz-amd64
@@ -12,17 +12,17 @@ https://gcr.io/google_containers/k8s-dns-dnsmasq-nanny-amd64
 https://gcr.io/google_containers/k8s-dns-sidecar-amd64
 https://gcr.io/google-samples/xtrabackup
 https://gcr.io/google_containers/heapster-influxdb-amd64
-https://gcr.io/google_containers/etcd-amd64
+* https://gcr.io/google_containers/etcd-amd64
 https://gcr.io/google_containers/heapster-grafana-amd64
 https://gcr.io/google_containers/heapster
-https://gcr.io/google_containers/pause-amd64
+* https://gcr.io/google_containers/pause-amd64
 https://gcr.io/kubernetes-helm/tiller
 https://gcr.io/google_containers/heapster-amd64
-https://gcr.io/google_containers/kube-proxy-amd64
+* https://gcr.io/google_containers/kube-proxy-amd64
 https://gcr.io/google_containers/addon-resizer
-https://gcr.io/google_containers/kube-apiserver-amd64
-https://gcr.io/google_containers/kube-controller-manager-amd64
-https://gcr.io/google_containers/kube-scheduler-amd64
+* https://gcr.io/google_containers/kube-apiserver-amd64
+* https://gcr.io/google_containers/kube-controller-manager-amd64
+* https://gcr.io/google_containers/kube-scheduler-amd64
 https://gcr.io/google_containers/kube-discovery-amd64
 https://gcr.io/google_containers/elasticsearch
 https://gcr.io/google_containers/heapster_influxdb
