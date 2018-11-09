@@ -1,12 +1,37 @@
-images=(kube-proxy-amd64:v1.12.2 kube-scheduler-amd64:v1.12.2 kube-controller-manager-amd64:v1.12.2 kube-apiserver-amd64:v1.12.2 etcd-amd64:3.2.24 kube-discovery-amd64:1.0 pause-amd64:3.1 kubernetes-dashboard-amd64:v1.10.0 coredns:1.2.4 kubedns-amd64:1.9 dnsmasq-metrics-amd64:1.0.1 kube-dnsmasq-amd64:1.4.1 exechealthz-amd64:1.3.0 k8s-dns-sidecar-amd64:1.14.13 k8s-dns-kube-dns-amd64:1.14.13 k8s-dns-dnsmasq-nanny-amd64:1.14.13)
-for imageName in ${images[@]} ; do
-  docker pull xshrim/$imageName
-  docker tag xshrim/$imageName gcr.io/google_containers/$imageName
-  docker rmi xshrim/$imageName
-done
+# images=(kube-proxy-amd64:v1.12.2 kube-scheduler-amd64:v1.12.2 kube-controller-manager-amd64:v1.12.2 kube-apiserver-amd64:v1.12.2 etcd-amd64:3.2.24 kube-discovery-amd64:1.0 pause-amd64:3.1 kubernetes-dashboard-amd64:v1.10.0 coredns:1.2.4 kubedns-amd64:1.9 dnsmasq-metrics-amd64:1.0.1 kube-dnsmasq-amd64:1.4.1 exechealthz-amd64:1.3.0 k8s-dns-sidecar-amd64:1.14.13 k8s-dns-kube-dns-amd64:1.14.13 k8s-dns-dnsmasq-nanny-amd64:1.14.13)
+# for imageName in ${images[@]} ; do
+#   docker pull xshrim/$imageName
+#   docker tag xshrim/$imageName gcr.io/google_containers/$imageName
+#   docker rmi xshrim/$imageName
+# done
 
 # images=(heapster:canary heapster_grafana:v3.1.1 heapster_influxdb:v0.7)
 # for imageName in ${images[@]} ; do
 #   docker pull xshrim/$imageName
 #   docker tag xshrim/$imageName kubernetes/$imageName
 # done
+
+docker pull xshrim/kube-apiserver-amd64:v1.12.2
+docker pull xshrim/kube-controller-manager-amd64:v1.12.2
+docker pull xshrim/kube-scheduler-amd64:v1.12.2
+docker pull xshrim/kube-proxy-amd64:v1.12.2
+docker pull xshrim/pause-amd64:3.1
+docker pull xshrim/etcd-amd64:3.2.24
+docker pull xshrim/coredns:1.2.2
+
+docker tag xshrim/kube-apiserver-amd64:v1.12.2 k8s.gcr.io/kube-apiserver:v1.12.2
+docker tag xshrim/kube-controller-manager-amd64:v1.12.2 k8s.gcr.io/kube-controller-manager:v1.12.2
+docker tag xshrim/kube-scheduler-amd64:v1.12.2 k8s.gcr.io/kube-scheduler:v1.12.2
+docker tag xshrim/kube-proxy-amd64:v1.12.2  k8s.gcr.io/kube-proxy:v1.12.2
+docker tag xshrim/pause-amd64:3.1  k8s.gcr.io/pause:3.1
+docker tag xshrim/etcd-amd64:3.2.24  k8s.gcr.io/etcd:3.2.24
+docker tag xshrim/coredns:1.2.2 k8s.gcr.io/coredns:1.2.2
+
+
+docker rmi xshrim/kube-apiserver-amd64:v1.12.2
+docker rmi xshrim/kube-controller-manager-amd64:v1.12.2
+docker rmi xshrim/kube-scheduler-amd64:v1.12.2
+docker rmi xshrim/kube-proxy-amd64:v1.12.2
+docker rmi xshrim/pause-amd64:3.1
+docker rmi xshrim/etcd-amd64:3.2.24
+docker rmi xshrim/coredns:1.2.2
