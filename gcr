@@ -16,7 +16,7 @@ https://gcr.io/google-samples/xtrabackup
 * https://gcr.io/google_containers/heapster-grafana-amd64
 https://gcr.io/google_containers/heapster
 * https://gcr.io/google_containers/pause-amd64
-https://gcr.io/kubernetes-helm/tiller
+* https://gcr.io/kubernetes-helm/tiller
 * https://gcr.io/google_containers/heapster-amd64
 * https://gcr.io/google_containers/kube-proxy-amd64
 https://gcr.io/google_containers/addon-resizer
@@ -29,4 +29,3 @@ https://gcr.io/google_containers/heapster_influxdb
 https://gcr.io/google_containers/kibana
 https://gcr.io/google_containers/cluster-autoscaler
 https://gcr.io/google_containers/rescheduler
-
