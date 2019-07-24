@@ -38,6 +38,8 @@ docker pull quay.io/coreos/flannel:v0.11.0-amd64
 
 # # sudo kubeadm reset
 
+# kubectl run -it --image busybox dns-test --restart=Never --rm sh
+
 # for zsh completion
 # autoload -Uz compinit
 # compinit
