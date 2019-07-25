@@ -27,6 +27,8 @@ docker pull quay.io/coreos/flannel:v0.11.0-amd64
 
 docker pull quay.io/external_storage/nfs-client-provisioner
 
+# sudo systemctl stop firewalld
+
 # sudo kubeadm init --ignore-preflight-errors=Swap --pod-network-cidr 10.244.0.0/16
 
 # mkdir -p $HOME/.kube
