@@ -1,3 +1,5 @@
+# https://hub.docker.com/u/mirrorgooglecontainers
+
 docker pull xshrim/kube-apiserver-amd64:latest
 docker pull xshrim/kube-controller-manager-amd64:latest
 docker pull xshrim/kube-scheduler-amd64:latest
@@ -26,6 +28,14 @@ docker rmi xshrim/coredns:latest
 docker pull quay.io/coreos/flannel:v0.11.0-amd64
 
 docker pull quay.io/external_storage/nfs-client-provisioner
+
+docker pull quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.25.0
+
+docker pull mirrorgooglecontainers/metrics-server-amd64:v0.3.3
+
+docker pull mirrorgooglecontainers/addon-resizer:2.3
+
+
 
 # sudo systemctl stop firewalld
 
